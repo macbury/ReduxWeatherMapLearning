@@ -3,7 +3,7 @@
     "sourceMap": true,
     "noImplicitAny": true,
     "module": "commonjs",
-    "target": "es5",
+    "target": "es6",
     "jsx": "react"
   },
   "exclude": [
@@ -12,7 +12,10 @@
   ],
   "files": [
     "./typings/index.d.ts",
+    "./src/actions/index.ts",
+    "./src/reducers/index.ts",
     "./src/components/app.tsx",
+    "./src/containers/searchbar.tsx",
     "./src/index.tsx"
   ],
   "filesGlob": [

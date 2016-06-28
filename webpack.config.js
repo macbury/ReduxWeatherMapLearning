@@ -18,11 +18,12 @@ var config = {
 
   resolve: {
     // Add '.ts' and '.tsx' as resolvable extensions.
-    extensions: ["", ".webpack.js", ".web.js", ".ts", ".tsx", ".js"]
+    extensions: ["", ".webpack.js", ".web.js", ".ts", ".tsx", ".js", '.json']
   },
 
   module: {
     loaders: [
+      { test: /\.json$/,             loader: 'json-loader' },
       { test: /\.ts(x?)$/,           loaders: ['ts-loader'] },
       { test: /index\.html$/,        loader: "file-loader?name=[path][name].[ext]" },
       { test: /\.(jpe?g|png|gif)$/i, loader: "file?name=[path][name].[ext]?[hash]" }

@@ -1,6 +1,12 @@
 {
+  "dependencies": {
+    "react-redux": "registry:npm/react-redux#4.4.0+20160614222153",
+    "redux": "registry:npm/redux#3.0.6+20160214194820"
+  },
   "globalDependencies": {
+    "axios": "registry:dt/axios#0.9.1+20160317120654",
     "react": "registry:dt/react#0.14.0+20160602151522",
-    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040"
+    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
+    "require": "registry:dt/require#2.1.20+20160316155526"
   }
 }
