@@ -8,17 +8,23 @@
   },
   "exclude": [
     "node_modules",
-    "dist"
+    "dist",
+    "typings"
   ],
   "files": [
+    "./typings/local.d.ts",
     "./typings/index.d.ts",
     "./src/actions/index.ts",
     "./src/reducers/index.ts",
+    "./src/reducers/reducer_weather.ts",
     "./src/components/app.tsx",
+    "./src/components/chart.tsx",
     "./src/containers/searchbar.tsx",
+    "./src/containers/weather_list.tsx",
     "./src/index.tsx"
   ],
   "filesGlob": [
+    "./typings/local.d.ts",
     "./typings/index.d.ts",
     "./src/**/*.ts",
     "./src/**/*.tsx"

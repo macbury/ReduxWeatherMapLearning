@@ -24,7 +24,7 @@ var config = {
   module: {
     loaders: [
       { test: /\.json$/,             loader: 'json-loader' },
-      { test: /\.ts(x?)$/,           loaders: ['ts-loader'] },
+      { test: /\.ts(x?)$/,           loader: 'babel-loader!ts-loader' },
       { test: /index\.html$/,        loader: "file-loader?name=[path][name].[ext]" },
       { test: /\.(jpe?g|png|gif)$/i, loader: "file?name=[path][name].[ext]?[hash]" }
     ],

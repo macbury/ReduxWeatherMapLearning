@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "lodash": "registry:npm/lodash#4.0.0+20160416211519",
     "react-redux": "registry:npm/react-redux#4.4.0+20160614222153",
     "redux": "registry:npm/redux#3.0.6+20160214194820"
   },
